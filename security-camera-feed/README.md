@@ -70,6 +70,3 @@ This implementation includes basic client-side security measures. For a producti
 - Firefox
 - Safari
 - Edge
-
-## License
-This project is open source and available under the MIT License.
