@@ -18,16 +18,15 @@ This project provides a clean interface for viewing multiple security camera fee
 1. Clone or download this repository
 2. Navigate to the project directory in your terminal
 3. Run the Python HTTP server:
-   ```bash
-   python -m http.server 8000
-   ```
-4. Open your web browser and navigate to:
-   ```
-   http://localhost:8000
+```bash
+python3 -m http.server 8000
+```
+4. Open your web browser and visit:
+```
+http://localhost:8000
 ```
 
 ### Project Structure
-
 ```
 project/
 ├── index.html
@@ -58,10 +57,19 @@ project/
 - User-select disabled on camera feeds
 
 ### Additional Security Notes
-This implementation includes basic client-side security measures. For a production environment, should also implement:
+This implementation includes basic client-side security measures. For a production environment, you should also implement:
 - User authentication
 - HTTPS
 - Server-side validation
 - Access control
 - Rate limiting
 - Secure video streaming
+
+## Browser Compatibility
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
+## License
+This project is open source and available under the MIT License.
